@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="./CSS/main.css">
+     <link rel="stylesheet" href="./CSS/ba.css">
+     <title>Company Name</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+         <div class="container">
+            <a class="navbar-brand mr-auto" href="#">
+                 <img src="./Images/Chai.png" height="40"  alt="Chai">
+             </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarToggler">
+                 <ul class="navbar-nav navbar-center mr-auto">
+                     <li class="nav-item active">
+                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="po.html"></span>Product</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="pri.html">Price</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="co.html">Conact Us</a>
+                     </li>
+                 </ul>
+                  <div class="collapse navbar-collapse">
+                      <ul  class="navbar-nav ml-auto">
+                         <li class="nav-item active">
+                              <a role="button" class="btn btn-block nav-link " data-toggle="modal"
+                                 data-target="#takekulhadModal">Take Your Kulhad</a>
+                         </li>
+                      </ul>
+                  </div>
+             </div>
+          </div>
+    </nav>
+    <div id="takekulhadModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Take Your Kulhad</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row form-group">
+                            <div class="col-12 col-sm-4 font-weight-bold col-form-label">
+                                Number Of Kulhads
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio4" value="option4">
+                                    <label class="form-check-label" for="inlineRadio4">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio5" value="option5">
+                                    <label class="form-check-label" for="inlineRadio5">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio6" value="option6">
+                                    <label class="form-check-label" for="inlineRadio6">6</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label for="telnum" class="col-12 col-md-4 col-form-label font-weight-bold">Section</label>
+                            <div class="btn-group btn-group-toggle col-12 col-md-5" data-toggle="buttons">
+                                <label class="btn btn-success col-12 col-md active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off"
+                                        checked>Non-Smoking
+                                </label>
+                                <label class="btn btn-danger col-12 col-md">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">Smoking
+                                </label>
+                            </div>
+
+                            <div class="col-md">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label for="telnum" class="col-12 col-md-4 col-form-label font-weight-bold">Date and
+                                Time</label>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                            </div>
+                            <div class="col-md">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-4 col-md-10">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Kulhad</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="ftco-cover " id="section-home">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center ftco-vh-100">
+          <div class="col-md-10" style="margin-top:-60px;">
+              <h1 class="ftco-heading ftco-animate">Just Another <br><b style="font-size:100px">The Chai Sutta</b><br>Bar In Indore.<br></h1>
+		  </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row row-content align-items-center" id="white">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./Images/Kulhad.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Kulhad Chai</b></h5>
+                <p class="card-text">A kulhad is a traditional clay cup, without any handles. It is very plain in its form. It is unpainted, unadorned and simple in design. And it is made, like all earthenware, by firing in kiln.  The earthen cup tends to soak up a bit of the hot fluids poured into it. So, when you pour hot tea into a kulhad, a bit of the tea soaks into the clay and the two flavours intermingle. This is what creates the earthy flavour everyone loves.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./Images/Coffee.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Hot Coffee</b></h5>
+                <p class="card-text">Hot Coffee may refer to: Coffee, a brewed beverage prepared from roasted seeds, commonly called coffee beans.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./Images/MilkShake.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Milk Shake</b></h5>
+                <p class="card-text">A milkshake, or simply shake, is a drink that is usually made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./Images/Maggi.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Maggi</b></h5>
+                <p class="card-text">In India the Simply Good journey has started with everyone’s favourite MAGGI 2-Minute Masala Noodles fortified with iron which will now provide consumers 15% of their daily Iron requirement.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./Images/Pizza.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"><b>Pizza</b></h5>
+                <p class="card-text">Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="./Images/Burger.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Burger</b></h5>
+                <p class="card-text">A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br><br><br>
+    <section class="ftco-section bg-light ftco-slant ftco-slant-white" id="section-pricing">
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-12 text-center ftco-animate">
+              <br><br>
+            <img src="https://media.giphy.com/media/YPJH8s5Q2ZF2pSNe0x/giphy.gif" alt="Imange Not Found" width="430px" height="450px">
+          </div>
+        </div>
+	  </div>
+	  <br>
+	  <br>
+	  <center>
+		<p class="mb-0"><a href="http://hemansai.com/blogai/index.html" class="btn btn-primary btn-sm">GO TO BlogAI</a></p>
+			</center>
+    </section>
+
+
+
+
+
+
+
+     <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Our mission is to become an inspirational food venture where goodness of Indian tradition is served on the bar table by providing high quality hygienic beverages in Kulhad at affordable prices. We want to expand Chai Sutta Bar all over India by opening at least 200 outlets to fulfill the market demand of hygienic tea which would not only motivate youth to reduce cigarette consumption but also it will uplift the people who work with us.</p>
+          </div>
+
+
+
+          <div class="col-xs-6 col-md-3 ml-auto">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="po.html">Product</a></li>
+              <li><a href="pri.html">Price</a></li>
+              <li><a href="co.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+         <a href="#">Tanishq Chauhan</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./JS/bal.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link rel="stylesheet" href="./CSS/main.css">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <title>price</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+         <div class="container">
+            <a class="navbar-brand mr-auto" href="tcl.html">
+                 <img src="./Images/Chai.png" height="40"  alt="Chai">
+             </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarToggler">
+                 <ul class="navbar-nav navbar-center mr-auto">
+                     <li class="nav-item active">
+                         <a class="nav-link" href="tcl.html">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="po.html"></span>Product</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Price</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="co.html">Conact Us</a>
+                     </li>
+                 </ul>
+                 <div class="collapse navbar-collapse">
+                      <ul  class="navbar-nav ml-auto">
+                         <li class="nav-item active">
+                              <a role="button" class="btn btn-block nav-link " data-toggle="modal"
+                                 data-target="#takekulhadModal">Take Your Kulhad</a>
+                         </li>
+                      </ul>
+                 </div>
+             </div>
+          </div>
+    </nav>
+    <div id="takekulhadModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Take Your Kulhad</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row form-group">
+                            <div class="col-12 col-sm-4 font-weight-bold col-form-label">
+                                Number Of Kulhads
+                            </div>
+                            <div class="col-12 col-sm-8">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio4" value="option4">
+                                    <label class="form-check-label" for="inlineRadio4">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio5" value="option5">
+                                    <label class="form-check-label" for="inlineRadio5">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio6" value="option6">
+                                    <label class="form-check-label" for="inlineRadio6">6</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label for="telnum" class="col-12 col-md-4 col-form-label font-weight-bold">Section</label>
+                            <div class="btn-group btn-group-toggle col-12 col-md-5" data-toggle="buttons">
+                                <label class="btn btn-success col-12 col-md active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off"
+                                        checked>Non-Smoking
+                                </label>
+                                <label class="btn btn-danger col-12 col-md">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">Smoking
+                                </label>
+                            </div>
+
+                            <div class="col-md">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label for="telnum" class="col-12 col-md-4 col-form-label font-weight-bold">Date and
+                                Time</label>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                            </div>
+                            <div class="col-md">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-4 col-md-10">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Kulhad</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main" >
+        <div class="container">
+
+	<div class="content-area">
+
+		<article id="post-1721" class="post-1721 page type-page status-publish hentry">
+
+	<div class="entry-content">
+					<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_center">
+
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1365" height="3996" src="https://chaisuttabarindia.com/wp-content/uploads/2020/07/menu.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://chaisuttabarindia.com/wp-content/uploads/2020/07/menu.jpg 1365w, https://chaisuttabarindia.com/wp-content/uploads/2020/07/menu-102x300.jpg 102w, https://chaisuttabarindia.com/wp-content/uploads/2020/07/menu-768x2248.jpg 768w, https://chaisuttabarindia.com/wp-content/uploads/2020/07/menu-350x1024.jpg 350w" sizes="(max-width: 1365px) 100vw, 1365px" /></div>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+					</div>
+
+</article>
+	</div>
+
+	</div> <!--.container-->
+	</div> <!--#main-->
+
+     <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Our mission is to become an inspirational food venture where goodness of Indian tradition is served on the bar table by providing high quality hygienic beverages in Kulhad at affordable prices. We want to expand Chai Sutta Bar all over India by opening at least 200 outlets to fulfill the market demand of hygienic tea which would not only motivate youth to reduce cigarette consumption but also it will uplift the people who work with us.</p>
+          </div>
+
+
+         <div class="col-xs-6 col-md-3 ml-auto">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="tcl.html">Home</a></li>
+              <li><a href="po.html">Product</a></li>
+              <li><a href="#">Price</a></li>
+              <li><a href="co.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+         <a href="#">Tanishq Chauhan</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
